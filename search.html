@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pencarian Wisata</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Explore Maluku</h2>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="info.html" class="nav-item">Info</a></li>
+            <li><a href="contact.html" class="nav-item">Kontak</a></li>
+            <li><a href="login.html" id="login-btn" class="nav-item">Login</a></li>
+            <li><button id="profile-btn" class="nav-item"></button></li>
+        </ul>
+        <div class="nav-search">
+            <input type="text" id="searchInputHome" placeholder="Cari Wisata...">
+            <button onclick="goSearch()">Cari</button>
+        </div>
+    </nav>
+</header>
+
+
+<section class="search-section">
+    <div class="grid-wisata" id="gridWisata">
+        <div class="card-wisata">
+            <img src="img/ORA.jpeg" alt="Pantai Ora">
+            <h3>Pantai Ora</h3>
+            <p>Surga tersembunyi dengan air sebening kristal.</p>
+            <a href="detail-ora.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        <div class="card-wisata">
+            <img src="img/NATSEPA.jpg" alt="Pantai Natsepa">
+            <h3>Pantai Natsepa</h3>
+            <p>Pantai populer dengan suasana tenang dan kuliner rujak.</p>
+            <a href="detail-natsepa.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        <div class="card-wisata">
+            <img src="img/ELIASA.jpeg" alt="Desa Adat Eliesa">
+            <h3>Desa Adat Eliesa</h3>
+            <p>Desa penuh budaya dan tradisi masyarakat.</p>
+            <a href="detail-desa-eliesa.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        <div class="card-wisata">
+            <img src="img/HAWANG.jpeg" alt="Goa Hawang">
+            <h3>Goa Hawang</h3>
+            <p>Goa alami dengan kolam air biru memukau.</p>
+            <a href="detail-goa-hawang.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        <div class="card-wisata">
+            <img src="img/HATTA.jpeg" alt="Pulau Hatta">
+            <h3>Pulau Hatta</h3>
+            <p>Spot snorkeling terbaik dengan terumbu karang indah.</p>
+            <a href="detail-pulau-hatta.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        <div class="card-wisata">
+            <img src="img/PATUNG.jpeg" alt="Patung Martha Christina">
+            <h3>Patung Martha Christina</h3>
+            <p>Ikon sejarah perjuangan rakyat Maluku.</p>
+            <a href="detail-patung-martha.html" class="btn-detail">Detail</a>
+            <button class="fav-btn">☆ Favorit</button>
+        </div>
+
+        
+    </div>
+</section>
+
+</body>
+</html>

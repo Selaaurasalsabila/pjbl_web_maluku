@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak - Wisata Maluku</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Explore Maluku</h2>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="info.html" class="nav-item">Info</a></li>
+            <li><a href="contact.html" class="nav-item">Kontak</a></li>
+            <li><a href="login.html" id="login-btn" class="nav-item">Login</a></li>
+            <li><button id="profile-btn" class="nav-item"></button></li>
+        </ul>
+        <div class="nav-search">
+            <input type="text" id="searchInputHome" placeholder="Cari Wisata...">
+            <button onclick="goSearch()">Cari</button>
+        </div>
+    </nav>
+</header>
+
+
+<section class="contact-section">
+    <h2>Kritik & Saran</h2>
+    <p>Silakan kirim kritik, saran, atau pertanyaan Anda melalui form berikut:</p>
+
+    <form id="contact-form" class="contact-form">
+        <label>Nama</label>
+        <input type="text" id="nama" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Kritik & Saran</label>
+        <textarea id="kritik" rows="5" required></textarea>
+
+        <input type="submit" value="Kirim" class="btn-kirim">
+    </form>
+
+    <div class="contact-info">
+        <h3>Kontak Lain</h3>
+        <p>Email: info@exploremaluku.id</p>
+        <p>Telepon: +62 812 3456 7890</p>
+    </div>
+</section>
+
+</body>
+</html>
